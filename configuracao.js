@@ -1,24 +1,28 @@
-/**
- * EDITE APENAS ESTE ARQUIVO para personalizar a loja, banners, clubes e links.
- * Mantenha as URLs de catálogos como foram informadas.
- * bannerMobile pode ficar vazio: nesse caso, usa o bannerDesktop.
- * link: null exibe o clube sem navegação.
- * Ordem da lista = ordem das seções na página.
+/*
+ * CATÁLOGO DIGITAL — BLACK PREMIUM
+ * Para criar outra loja: altere somente os dados abaixo.
+ * Os links foram copiados literalmente dos arquivos fornecidos.
+ * Escudos FootyLogos são fontes externas candidatas (algumas ainda não verificadas).
+ * Sem Instagram informado: deixe instagram como string vazia para ocultar o botão.
+ * Não adicione links inventados. Para catálogo sem link, use string vazia.
  */
 const configuracao = {
   "loja": {
-    "nome": "FOOTBALL CLUB TOURNAMENT",
-    "logo": "./assets/imagens/logo.webp",
-    "whatsapp": "https://wa.me/559885389789",
-    "whatsappExibicao": "+55 98 8538-9789",
+    "nome": "CATÁLOGO DIGITAL",
+    "logo": "./assets/imagens/logo-catalogo-digital.png",
+    "whatsapp": "559885389789",
     "instagram": ""
+  },
+  "banners": {
+    "larguraReferencia": 1080,
+    "alturaReferencia": 608,
+    "larguraMaximaDesktop": 1080
   },
   "ligas": [
     {
-      "id": "copa-do-mundo",
-      "nome": "Copa do Mundo",
-      "tipo": "selecao",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Banner%20Dourado%20da%20Copa%20do%20Mundo%20(2).png",
+      "id": "liga-01",
+      "nome": "COPA DO MUNDO - SELEÇÕES",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Banner%20Dourado%20da%20Copa%20do%20Mundo%20(2).png?updatedAt=1793654735151",
       "bannerMobile": "",
       "clubes": [
         {
@@ -234,10 +238,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "campeonato-brasileiro",
-      "nome": "Campeonato Brasileiro",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Banner%20Premium%20do%20Brasileir%C3%A3o.png",
+      "id": "liga-02",
+      "nome": "CAMPEONATO BRASILEIRO",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Banner%20Premium%20do%20Brasileir%C3%A3o.png?updatedAt=1793654735152",
       "bannerMobile": "",
       "clubes": [
         {
@@ -358,10 +361,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "campeonato-espanhol",
-      "nome": "Campeonato Espanhol",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Espanhol_%20Jerseys%20em%20Destaque.png",
+      "id": "liga-03",
+      "nome": "CAMPEONATO ESPANHOL - LA LIGA",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Espanhol_%20Jerseys%20em%20Destaque.png?updatedAt=1793654735445",
       "bannerMobile": "",
       "clubes": [
         {
@@ -422,10 +424,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "campeonato-ingles",
-      "nome": "Campeonato Inglês",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Ingl%C3%AAs_%20Liverpool%20e%20United.png",
+      "id": "liga-04",
+      "nome": "CAMPEONATO INGLÊS - PREMIER LEAGUE",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Ingl%C3%AAs_%20Liverpool%20e%20United.png?updatedAt=1793654735018",
       "bannerMobile": "",
       "clubes": [
         {
@@ -531,10 +532,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "campeonato-italiano",
-      "nome": "Campeonato Italiano",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Italiano_%20Milan%20e%20Inter.png",
+      "id": "liga-05",
+      "nome": "CAMPEONATO ITALIANO - SERIE A",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Italiano_%20Milan%20e%20Inter.png?updatedAt=1793654735183",
       "bannerMobile": "",
       "clubes": [
         {
@@ -615,15 +615,14 @@ const configuracao = {
         {
           "nome": "Genoa",
           "imagem": "https://www.footylogos.com/dls/logo/rgba-v1/genoa-cfc.png",
-          "link": null
+          "link": ""
         }
       ]
     },
     {
-      "id": "campeonato-alemao",
-      "nome": "Campeonato Alemão",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Alem%C3%A3o_%20Bayern%20e%20Dortmund%20(1).png",
+      "id": "liga-06",
+      "nome": "CAMPEONATO ALEMÃO - BUNDESLIGA",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Campeonato%20Alem%C3%A3o_%20Bayern%20e%20Dortmund%20(1).png?updatedAt=1793654735437",
       "bannerMobile": "",
       "clubes": [
         {
@@ -719,10 +718,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "campeonato-frances",
-      "nome": "Campeonato Francês",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Banner%20promocional%20da%20Ligue%201%20com%20camisas%20flutuantes.png",
+      "id": "liga-07",
+      "nome": "CAMPEONATO FRANCÊS - LIGUE 1",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Banner%20promocional%20da%20Ligue%201%20com%20camisas%20flutuantes.png?updatedAt=1793654735428",
       "bannerMobile": "",
       "clubes": [
         {
@@ -753,17 +751,17 @@ const configuracao = {
         {
           "nome": "Montpellier",
           "imagem": "https://www.footylogos.com/dls/logo/rgba-v1/montpellier-hsc.png",
-          "link": null
+          "link": ""
         },
         {
           "nome": "Nantes",
           "imagem": "https://www.footylogos.com/dls/logo/rgba-v1/fc-nantes.png",
-          "link": null
+          "link": ""
         },
         {
           "nome": "Brest",
           "imagem": "https://www.footylogos.com/dls/logo/rgba-v1/stade-brestois.png",
-          "link": null
+          "link": ""
         },
         {
           "nome": "Lyon",
@@ -783,10 +781,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "times-da-america",
-      "nome": "Times da América",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Times%20da%20Am%C3%A9rica%20em%20Destaque%20(1).png",
+      "id": "liga-08",
+      "nome": "TIMES DA AMÉRICA",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Times%20da%20Am%C3%A9rica%20em%20Destaque%20(1).png?updatedAt=1793654735002",
       "bannerMobile": "",
       "clubes": [
         {
@@ -907,7 +904,7 @@ const configuracao = {
         {
           "nome": "FC Dallas",
           "imagem": "https://www.footylogos.com/dls/logo/rgba-v1/fc-dallas.png",
-          "link": null
+          "link": ""
         },
         {
           "nome": "Inter Miami",
@@ -962,10 +959,9 @@ const configuracao = {
       ]
     },
     {
-      "id": "resto-do-mundo",
-      "nome": "Resto do Mundo",
-      "tipo": "clube",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Camisas%20do%20Mundo%20em%20Ouro%20e%20Azul.png",
+      "id": "liga-09",
+      "nome": "RESTO DO MUNDO",
+      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Camisas%20do%20Mundo%20em%20Ouro%20e%20Azul.png?updatedAt=1793654734986",
       "bannerMobile": "",
       "clubes": [
         {
@@ -1029,14 +1025,6 @@ const configuracao = {
           "link": "https://photos.app.goo.gl/3XpB6Mqr9HYFJzvt6"
         }
       ]
-    },
-    {
-      "id": "outras-colecoes",
-      "nome": "Outras Coleções",
-      "tipo": "colecao",
-      "bannerDesktop": "https://ik.imagekit.io/verlcwgen/Outras%20Cole%C3%A7%C3%B5es_%20Moda%20Esportiva%20Premium.png",
-      "bannerMobile": "",
-      "clubes": []
     }
   ]
 };
